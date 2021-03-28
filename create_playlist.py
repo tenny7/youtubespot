@@ -128,6 +128,7 @@ class CreatePlaylist:
                 "Authorization": "Bearer {}".format(self.spotify_token)
             }
         )
+        # yes
 
         response_json = response.json()
         return response_json
